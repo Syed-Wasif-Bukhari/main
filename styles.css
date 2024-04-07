@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url(./images/bg\ pic.jpg);
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.login-f{
+  background-color:rgba(255, 244, 200, 0.2);
+  width: 35rem;
+  height: 35rem;
+  /* display: flex; */
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+
+}
+
+.login-f input{
+  margin: 6px;
+  padding: 5px;
+  font-size: 17px;
+  
+  
+}
+
+input[type="text"], input[type="password"]{
+  border-radius:8px ;
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+  border: none;
+  outline: #e134d3 solid ;
+}
+.login-f form{
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.login-f .C-box{
+  font-size: 20px;
+
+}
+
+.Submit{
+  color: white;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 12px 30px;
+  border-radius: 25px;
+  margin: 6px;
+  border: rgb(249, 246, 246) solid 2px;
+  background:linear-gradient(45deg, rgb(185,48,254), rgb(255,64,153));
+}
+
+.Submit:hover{
+  color: #1c2b2d;
+  border: #1c2b2d solid 2px;
+  
+}
